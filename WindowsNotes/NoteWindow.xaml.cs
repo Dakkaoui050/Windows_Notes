@@ -35,23 +35,21 @@ namespace WindowsNotes
         {
             InitializeComponent();
             // --- Make the title draggable ---
-            TitleBox.PreviewMouseLeftButtonDown += (_, args) =>
+            // --- Make the title draggable ---
+            // drag the window by dragging the title box
+          
+
+            // Also allow dragging by clicking background (outside text areas)
+            MouseLeftButtonDown += (_, args) =>
             {
-                // allow dragging the note when not minimized
-                if (!_isMinimizedView && args.ButtonState == MouseButtonState.Pressed)
-                {
+                // ignore if click is on a TextBox caret area (typing intent)
+                if (args.Source is TextBox) return;
+
+                if (args.ButtonState == MouseButtonState.Pressed)
                     DragMove();
-                }
             };
 
-            // --- Handle double-click restore in mini mode ---
-            TitleBox.MouseDoubleClick += (_, args) =>
-            {
-                if (_isMinimizedView)
-                {
-                    ExitMiniMode();
-                }
-            };
+
 
             _note = note;
             _service = service;
@@ -83,20 +81,27 @@ namespace WindowsNotes
             BodyBox.TextChanged += OnBodyChanged;
 
             // drag the window by dragging the title bar / header
-            TitleBox.PreviewMouseLeftButtonDown += (_, args) =>
+            TitleBox.PreviewMouseLeftButtonDown += (sender, args) =>
             {
-                // if we're in mini mode and user clicks title -> restore
+                // In MINI MODE:
+                // - Title is read-only
+                // - Dragging the title should move the sticky
                 if (_isMinimizedView)
                 {
-                    ExitMiniMode();
+                    if (args.ButtonState == MouseButtonState.Pressed)
+                    {
+                        DragMove();
+                        args.Handled = true; // don't try to focus textbox
+                    }
                     return;
                 }
 
-                if (args.ButtonState == MouseButtonState.Pressed)
-                {
-                    DragMove();
-                }
+                // NORMAL MODE:
+                // We want to be able to type in the title.
+                // So: do NOT drag here. Let the TextBox behave normally.
+                // (No code needed here.)
             };
+
 
             // When the whole sticky is dragged from the blank background (not just title),
             // allow moving too:
@@ -118,7 +123,12 @@ namespace WindowsNotes
             };
 
             // save geometry when moved / resized / closed
-            LocationChanged += (_, __) => SaveWindowGeometryDelayed();
+            LocationChanged += (_, __) =>
+            {
+                ClampToScreen();
+                SaveWindowGeometryDelayed();
+            };
+
             SizeChanged += (_, __) => SaveWindowGeometryDelayed();
             Closed += (_, __) => SaveWindowGeometryImmediate();
         }
@@ -214,30 +224,32 @@ namespace WindowsNotes
             if (_isMinimizedView) return;
             _isMinimizedView = true;
 
-            // remember normal size
+            // save previous size
             _lastHeight = Height;
             _lastWidth = Width;
 
-            // hide body so only title row shows
+            // hide the body so only header stays visible
             BodyBox.Visibility = Visibility.Collapsed;
 
-            // shrink the window
+            // shrink window
             Height = 50;
             Width = 220;
 
-            // no resizing in mini mode
+            // lock resize in mini mode
             ResizeMode = ResizeMode.NoResize;
 
-            // float above other stuff so it's visible
+            // always on top (so you don't "lose" the mini sticky)
+            Topmost = true;
 
-            // IMPORTANT:
-            // do NOT move Left/Top here.
-            // If we auto-move and you have multiple monitors,
-            // the sticky can "disappear" off-screen.
-            //
-            // Also, don't set AllowsTransparency here unless you ALSO
-            // change WindowStyle etc. For now we keep it simple so
-            // you still see a normal window frame / can drag it.
+            // UI state for buttons:
+            // when minimized: hide "_" (already mini), show restore "▢"
+            MiniButton.Visibility = Visibility.Collapsed;
+            RestoreButton.Visibility = Visibility.Visible;
+
+            // make the title non-editable and look like a label
+            TitleBox.IsReadOnly = true;
+            TitleBox.BorderThickness = new Thickness(0);
+            TitleBox.Background = Brushes.Yellow;
         }
 
         private void ExitMiniMode()
@@ -245,18 +257,52 @@ namespace WindowsNotes
             if (!_isMinimizedView) return;
             _isMinimizedView = false;
 
-            // show the body again
+            // show body again
             BodyBox.Visibility = Visibility.Visible;
 
-            // restore old size
+            // restore size
             Height = _lastHeight;
             Width = _lastWidth;
 
-            // restore resize ability
+            // unlock resize
             ResizeMode = ResizeMode.CanResizeWithGrip;
 
-            
+            // keep topmost for now
+            Topmost = true;
+
+            // UI state for buttons:
+            // when normal: show "_" (can minimize again), hide "▢"
+            MiniButton.Visibility = Visibility.Visible;
+            RestoreButton.Visibility = Visibility.Collapsed;
+           
+            TitleBox.IsReadOnly = false;
+            TitleBox.Background = Brushes.Yellow; // still yellow
+            ClampToScreen(); // keep it visible after restore
         }
+
+        private void RestoreButton_Click(object sender, RoutedEventArgs e)
+        {
+            ExitMiniMode();
+        }
+        private void ClampToScreen()
+        {
+            // Work area = full screen minus taskbar etc.
+            Rect screen = SystemParameters.WorkArea;
+
+            // Clamp horizontal position
+            if (Left < screen.Left)
+                Left = screen.Left;
+            if (Left + Width > screen.Right)
+                Left = screen.Right - Width;
+
+            // Clamp vertical position
+            if (Top < screen.Top)
+                Top = screen.Top;
+            if (Top + Height > screen.Bottom)
+                Top = screen.Bottom - Height;
+        }
+
+
     }
 }
 

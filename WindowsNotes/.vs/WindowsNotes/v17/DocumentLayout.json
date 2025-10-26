@@ -1,75 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dakka\\WindowsNotes\\",
+  "WorkspaceRootPath": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\windowsnotes\\notewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\notewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\windowsnotes\\notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\notewindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\windowsnotes\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\windowsnotes\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\windowsnotes\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\windowsnotes\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\dakka\\onedrive\\documenten\\github\\windows_notes\\windowsnotes\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedHeight": 225,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\dakka\\WindowsNotes\\Models\\Note.cs",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\Models\\Note.cs",
               "RelativeDocumentMoniker": "Models\\Note.cs",
-              "ToolTip": "C:\\Users\\dakka\\WindowsNotes\\Models\\Note.cs",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\Models\\Note.cs",
               "RelativeToolTip": "Models\\Note.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T20:44:33.47Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dakka\\WindowsNotes\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\dakka\\WindowsNotes\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwGEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T20:43:06.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NoteWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\dakka\\WindowsNotes\\NoteWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml",
               "RelativeDocumentMoniker": "NoteWindow.xaml",
-              "ToolTip": "C:\\Users\\dakka\\WindowsNotes\\NoteWindow.xaml",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml",
               "RelativeToolTip": "NoteWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-19T21:58:37.844Z",
@@ -79,11 +82,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "NoteWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dakka\\WindowsNotes\\NoteWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml.cs",
               "RelativeDocumentMoniker": "NoteWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\dakka\\WindowsNotes\\NoteWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml.cs",
               "RelativeToolTip": "NoteWindow.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA2wDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA+wBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T22:00:24.603Z",
               "EditorCaption": ""
@@ -92,21 +95,33 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\dakka\\WindowsNotes\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\dakka\\WindowsNotes\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-19T20:47:14.177Z",
+              "WhenOpened": "2025-10-19T20:47:14.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoteWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml",
+              "RelativeDocumentMoniker": "NoteWindow.xaml",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml",
+              "RelativeToolTip": "NoteWindow.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAewCsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-26T14:54:26.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NotesService.cs",
-              "DocumentMoniker": "C:\\Users\\dakka\\WindowsNotes\\Services\\NotesService.cs",
+              "DocumentMoniker": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\Services\\NotesService.cs",
               "RelativeDocumentMoniker": "Services\\NotesService.cs",
-              "ToolTip": "C:\\Users\\dakka\\WindowsNotes\\Services\\NotesService.cs",
+              "ToolTip": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\Services\\NotesService.cs",
               "RelativeToolTip": "Services\\NotesService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dakka\\WindowsNotes\\WindowsNotes.csproj": {}
+    "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\WindowsNotes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dakka\\WindowsNotes\\WindowsNotes.csproj": {
+    "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\WindowsNotes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dakka\\WindowsNotes\\WindowsNotes.csproj",
+        "projectUniqueName": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\WindowsNotes.csproj",
         "projectName": "WindowsNotes",
-        "projectPath": "C:\\Users\\dakka\\WindowsNotes\\WindowsNotes.csproj",
+        "projectPath": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\WindowsNotes.csproj",
         "packagesPath": "C:\\Users\\dakka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dakka\\WindowsNotes\\obj\\",
+        "outputPath": "C:\\Users\\dakka\\OneDrive\\Documenten\\GitHub\\Windows_Notes\\WindowsNotes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

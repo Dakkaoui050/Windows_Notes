@@ -6,31 +6,55 @@
         Height="427"
         WindowStartupLocation="Manual"
         ResizeMode="CanResizeWithGrip"
-        Background="Yellow"
         WindowStyle="None"
         AllowsTransparency="True"
-        BorderThickness="0"
+        Background="Transparent"
         Topmost="True">
 
+    <!-- Sticky note visual -->
+    <Border CornerRadius="10"
+            Background="Yellow"
+            BorderBrush="Black"
+            BorderThickness="1"
+            Padding="8">
 
-    <!-- Root layout -->
-    <Grid Margin="10" Background="Yellow">
+        <Grid>
+            <!-- Layout:
+                 Row 0 = header (title + buttons)
+                 Row 1 = body text -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
+            <!-- Header row has 4 columns:
+                 [TitleBox][Mini][_Restore][Close] -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <!-- title stretches -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- minimize -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- restore -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- close -->
+            </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <!-- Row 0: header (title + "On top") -->
-            <RowDefinition Height="Auto"/>
-            <!-- Row 1: body text area -->
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+            <!-- Title / drag area -->
+            <TextBox x:Name="TitleBox"
+                     Grid.Row="0"
+                     Grid.Column="0"
+                     Margin="0,0,8,8"
+                     MinWidth="120"
+                     FontWeight="Bold"
+                     FontSize="16"
+                     BorderThickness="0"
+                     Background="Yellow"
+                     TextWrapping="NoWrap"
+                     VerticalAlignment="Center"/>
 
-        <Grid.ColumnDefinitions>
-            <!-- Col 0: Title stretches -->
-            <ColumnDefinition Width="287.752"/>
-            <!-- Col 1: Checkbox sizes to content -->
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="MiniButton"
+            <!-- Minimize button -->
+            <Button x:Name="MiniButton"
                     Grid.Row="0"
                     Grid.Column="1"
                     Margin="0,0,4,8"
@@ -43,46 +67,48 @@
                     ToolTip="Minimize"
                     Click="MiniButton_Click">_</Button>
 
-        <Button x:Name="CloseButton"
-        Grid.Row="0"
-        Content="×"
-        FontWeight="Bold"
-        FontSize="14"
-        Width="49"
-        Height="25"
-        Background="Transparent"
-        BorderThickness="0"
-        Foreground="Black"
-        HorizontalAlignment="Right"
-        VerticalAlignment="Top"
-        Click="CloseButton_Click" Margin="0,0,2,0"/>
+            <!-- Restore button (hidden until mini mode) -->
+            <Button x:Name="RestoreButton"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Margin="0,0,4,8"
+                    Width="28"
+                    Height="24"
+                    FontWeight="Bold"
+                    FontSize="14"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    ToolTip="Restore"
+                    Visibility="Collapsed"
+                    Click="RestoreButton_Click">▢</Button>
 
-        <!-- HEADER / TITLE BAR -->
-        <TextBox x:Name="TitleBox"
-                 Grid.Row="0"
-                 Grid.Column="0"
-                 Margin="0,0,79,0"
-                 MinWidth="120"
-                 FontWeight="Bold"
-                 FontSize="16"
-                 BorderThickness="0"
-                 Background="Yellow"
-                 VerticalAlignment="Top"
-                 TextWrapping="NoWrap"/>
-        <TextBlock/>
+            <!-- Close button -->
+            <Button x:Name="CloseButton"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Margin="0,0,0,8"
+                    Width="28"
+                    Height="24"
+                    FontWeight="Bold"
+                    FontSize="14"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    ToolTip="Close"
+                    Click="CloseButton_Click">×</Button>
 
+            <!-- Body text area -->
+            <ScrollViewer Grid.Row="1"
+                          Grid.ColumnSpan="4"
+                          VerticalScrollBarVisibility="Auto"
+                          Background="Yellow">
+                <TextBox x:Name="BodyBox"
+                         AcceptsReturn="True"
+                         TextWrapping="Wrap"
+                         VerticalScrollBarVisibility="Auto"
+                         Background="Yellow"/>
+            </ScrollViewer>
 
-        <!-- BODY -->
-        <ScrollViewer Grid.Row="1"
-                      Grid.ColumnSpan="2"
-                      VerticalScrollBarVisibility="Auto"
-                      Background="Yellow">
-            <TextBox x:Name="BodyBox"
-                     AcceptsReturn="True"
-                     TextWrapping="Wrap"
-                     VerticalScrollBarVisibility="Auto"
-                     Background="Yellow" Width="344"/>
-        </ScrollViewer>
-
-    </Grid>
+        </Grid>
+    </Border>
 </Window>
+
