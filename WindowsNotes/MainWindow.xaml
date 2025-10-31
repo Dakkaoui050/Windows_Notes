@@ -1,23 +1,53 @@
 ﻿<Window x:Class="WindowsNotes.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Windows Notes" Height="560" Width="420"
-        WindowStartupLocation="CenterScreen">
-    <DockPanel Margin="10" Background="Yellow">
-        <!-- Top: search + actions -->
-        <StackPanel DockPanel.Dock="Top" Margin="0,0,0,8">
-            <TextBox x:Name="SearchBox" Height="28" Margin="0,0,0,8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Note"
+      Width="365"
+      Height="427"
+      ResizeMode="CanResizeWithGrip"
+      WindowStyle="None"
+      AllowsTransparency="False"
+      Background="Yellow"
+      WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <!-- Title bar -->
+        <DockPanel Background="Yellow" Height="30" VerticalAlignment="Top" MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
+            <TextBlock Text="Windows Notes" VerticalAlignment="Center" Margin="10,0,0,0" FontWeight="Bold"/>
+
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Width="104">
+                <Button x:Name="MinimizeButton" Content="—" Width="30" Height="30"
+                        Click="MinimizeButton_Click" Background="Yellow" BorderThickness="0"
+                        FontSize="16" />
+                <Button x:Name="ExitButton" Content="✕" Width="30" Height="30"
+                        Click="ExitButton_Click" Background="yellow" BorderThickness="0"
+                        FontSize="14" Foreground="Red"/>
+            </StackPanel>
+        </DockPanel>
+
+        <!-- Main Content -->
+        <Grid Margin="0,30,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="116*"/>
+                <RowDefinition Height="281*"/>
+            </Grid.RowDefinitions>
+            <DockPanel Margin="10,10,10,10" Background="Yellow" Grid.RowSpan="2">
+                <!-- Top: search + actions -->
+                <StackPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+                    <TextBox x:Name="SearchBox" Height="28" Margin="0,0,0,8"
                      TextChanged="SearchBox_TextChanged"
                      ToolTip="Search in titles and bodies" Background="Yellow"/>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Content="New" Width="80" Margin="0,0,6,0" Click="New_Click" Background="GreenYellow"/>
-                <Button Content="Open" Width="80" Margin="0,0,6,0" Click="Open_Click" Background="GreenYellow"/>
-                <Button Content="Delete" Width="80" Click="Delete_Click" Background="GreenYellow"/>
-            </StackPanel>
-        </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="New" Width="80" Margin="0,0,6,0" Click="New_Click" Background="GreenYellow"/>
+                        <Button Content="Open" Width="80" Margin="0,0,6,0" Click="Open_Click" Background="GreenYellow"/>
+                        <Button Content="Delete" Width="80" Click="Delete_Click" Background="GreenYellow"/>
+                    </StackPanel>
+                </StackPanel>
 
-        <!-- Notes list -->
-        <ListBox x:Name="NotesList" DisplayMemberPath="Title"
+                <!-- Notes list -->
+                <ListBox x:Name="NotesList" DisplayMemberPath="Title"
                  MouseDoubleClick="NotesList_MouseDoubleClick" Background="Yellow"/>
-    </DockPanel>
+            </DockPanel>
+        </Grid>
+    </Grid>
 </Window>

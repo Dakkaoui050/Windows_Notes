@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\dakka\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dakka\\.nuget\\packages",
+      "C:\\Users\\Driss\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Driss\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
