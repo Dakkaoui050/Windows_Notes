@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindowsNotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b8398cbc811c11361bc1ced0d56111dfee3867")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+700246f9dfaac36f34f4f186f4d552ee71abb585")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindowsNotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindowsNotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

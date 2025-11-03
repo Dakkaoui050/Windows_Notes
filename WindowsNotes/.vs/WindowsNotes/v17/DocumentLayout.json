@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\notewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\startupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:startupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|solutionrelative:notewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A893552C-3633-8F5D-109A-9E3EEFA8EBFF}|WindowsNotes.csproj|c:\\users\\driss\\documents\\github\\windows_notes\\windowsnotes\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 225,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Note.cs",
               "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\Models\\Note.cs",
               "RelativeDocumentMoniker": "Models\\Note.cs",
@@ -52,7 +64,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "StartupManager.cs",
+              "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\StartupManager.cs",
+              "RelativeDocumentMoniker": "StartupManager.cs",
+              "ToolTip": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\StartupManager.cs",
+              "RelativeToolTip": "StartupManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:33:25.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T20:31:37.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:31:31.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -70,14 +120,14 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAswHQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T20:43:06.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "NoteWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml",
               "RelativeDocumentMoniker": "NoteWindow.xaml",
@@ -89,20 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "NoteWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml.cs",
               "RelativeDocumentMoniker": "NoteWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\NoteWindow.xaml.cs",
               "RelativeToolTip": "NoteWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwN0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T22:00:24.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NotesService.cs",
               "DocumentMoniker": "C:\\Users\\Driss\\Documents\\GitHub\\Windows_Notes\\WindowsNotes\\Services\\NotesService.cs",
               "RelativeDocumentMoniker": "Services\\NotesService.cs",
@@ -110,7 +160,8 @@
               "RelativeToolTip": "Services\\NotesService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:46:09.544Z"
+              "WhenOpened": "2025-10-19T20:46:09.544Z",
+              "EditorCaption": ""
             }
           ]
         }

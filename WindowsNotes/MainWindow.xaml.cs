@@ -32,6 +32,10 @@ namespace WindowsNotes
         public MainWindow()
         {
             InitializeComponent();
+            var exe = System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
+            // add the flag so Windows launches in mini mode
+            StartupManager.EnableRunAtStartup($"{exe} --startup");
+
 
             AppState.AllNotes = _service.Load()
                 .OrderByDescending(n => n.UpdatedUtc)

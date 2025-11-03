@@ -219,7 +219,7 @@ namespace WindowsNotes
         // -------------------------------------------------
         // MINI MODE (sticky bar mode)
         // -------------------------------------------------
-        private void EnterMiniMode()
+        public void EnterMiniMode()
         {
             if (_isMinimizedView) return;
             _isMinimizedView = true;
@@ -300,6 +300,19 @@ namespace WindowsNotes
                 Top = screen.Top;
             if (Top + Height > screen.Bottom)
                 Top = screen.Bottom - Height;
+        }
+        public void ForceMiniModeFromApp()
+        {
+            // If it's already minimized, do nothing.
+            if (_isMinimizedView)
+                return;
+
+            // We want exactly what EnterMiniMode() does.
+            // We can either make EnterMiniMode() public,
+            // OR duplicate that logic here.
+
+            // We'll reuse your EnterMiniMode() so just make it public instead of private.
+            EnterMiniMode();
         }
 
 
