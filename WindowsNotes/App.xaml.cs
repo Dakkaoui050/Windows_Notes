@@ -1,4 +1,5 @@
 ﻿using System.Configuration;
+using System.Linq;
 using System.Data;
 using System.Windows;
 using WindowsNotes.Models;
